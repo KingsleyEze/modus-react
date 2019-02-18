@@ -1,0 +1,46 @@
+.user-list-header {
+  position: relative;
+  left: 40px;
+}
+
+.user-list-container {
+  list-style: none;
+}
+
+.user-list-container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.user-list-container .fullname:hover {
+  color: crimson;
+}
+
+.container {
+  width: 22%;
+  position: relative;
+  border-bottom: 1px solid #cccccc;
+  padding: 0px 0px 10px 0;
+  margin: 10px 0 0 0;
+}
+
+.fullname {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+  text-transform: capitalize;
+  color: blueviolet;
+}
+
+.contact {
+  letter-spacing: 1px;
+  line-height: 20px;
+  font-size: 10pt;
+  margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 70%;
+  }
+}
